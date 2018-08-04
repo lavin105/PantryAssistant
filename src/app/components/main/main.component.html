@@ -1,0 +1,54 @@
+<div class="container">
+
+  <div class="pantry">
+    <h1 class="capt">your pantry</h1>
+
+    <div class="pantrycontainer">
+      <ul class="pantrylist">
+
+        <li class="pantryitem" *ngFor="let p of pantrylist">{{p}}
+          <i id="i2" class="fa fa-trash" (click)="removePantryItem(p)"></i>
+
+          <i id="i1" class="material-icons" (click)="depleatedItem(p)">
+            exposure_zero
+          </i>
+        </li>
+
+
+
+      </ul>
+    </div>
+    <input type="text" name="" id="pantryinput" #p/>
+    <button id="add" (click)="addPantryItem(p.value)">+</button>
+
+
+
+  </div>
+  <div class="shopping">
+    <h1 class="capt">shopping list</h1>
+
+
+    <div class="shoppingcontainer">
+      <ul class="shoppinglist">
+
+        <li class="shoppingitem" *ngFor="let s of shoppinglist">{{s}}
+          <i id="i2" class="fa fa-trash" (click)="removeShoppingItem(s)"></i>
+
+          <i id="i1" class="material-icons" (click)="purchasedItem(s)">
+            attach_money
+          </i>
+        </li>
+
+      </ul>
+    </div>
+
+    <input type="text" name="" id="shoppinginput" #s/>
+    <button id="add" (click)="addShoppingItem(s.value)">+</button>
+
+
+
+  </div>
+
+
+
+</div>

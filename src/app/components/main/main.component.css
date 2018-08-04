@@ -1,0 +1,128 @@
+.container {
+  display: flex;
+  margin: 5% auto;
+  width: 90%;
+}
+.pantry {
+  flex: 1;
+}
+.pantrycontainer {
+  height: 420px;
+  width: 450px;
+  margin: 0 auto;
+  border-radius: 5%;
+  overflow-y: auto;
+  background-color: #ffe6f2;
+  box-shadow: 0px 0px 35px 3px;
+  border: 3px solid;
+
+
+}
+.pantrylist {
+  list-style-type: none;
+  padding: 0;
+}
+.pantryitem {
+  padding: 18px;
+  transition: all 0.3s ease;
+  font-size: 25px;
+  vertical-align: middle;
+  font-weight: bold;
+}
+.pantryitem:hover {
+  background-color: #ffcce5;
+}
+
+.shopping {
+  flex: 1;
+}
+.shoppingcontainer {
+  height: 420px;
+  width: 450px;
+  margin: 0 auto;
+  border-radius: 5%;
+  overflow-y: auto;
+  background-color: #ffe6f2;
+  border: 3px solid;
+  box-shadow: 0px 0px 35px 3px;
+}
+.shoppinglist {
+  list-style-type: none;
+  padding: 0;
+}
+.shoppingitem {
+  padding: 18px;
+  transition: all 0.3s ease;
+  font-size: 25px;
+  vertical-align: middle;
+  font-weight: bold;
+}
+.shoppingitem:hover {
+  background-color: #ffcce5;
+}
+.capt {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 55px;
+  font-family: Pacifico;
+}
+#pantryinput {
+  margin: 4% 0% 0% 13%;
+  height: 45px;
+  width: 320px;
+  border-radius: 5%;
+  border:3px solid black;
+  font-size:30px;
+}
+#shoppinginput {
+  margin: 4% 0% 0% 13%;
+  height: 45px;
+  width: 320px;
+  border-radius: 5%;
+  border:3px solid black;
+  font-size:30px;
+
+}
+#add {
+  margin-left: 9%;
+  height: 65px;
+  width: 65px;
+  vertical-align: middle;
+  border-radius: 50%;
+  font-size: 33px;
+  font-weight: bold;
+  background-color: white;
+  border-color: black;
+  margin-bottom:2%;
+}
+#add:hover {
+  background-color: rgb(228, 255, 255);
+  cursor: pointer;
+}
+#i1{
+    font-size: 42px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    float:right;   
+    position: relative;
+    
+}
+#i2{
+    margin-left:7%;
+    font-size: 32px;
+    margin-top: 0.7%;
+    vertical-align: middle;
+    float:right;
+    padding-right:2%;
+
+
+}
+#i1:hover{
+    cursor: pointer;
+    
+}
+#i2:hover{
+    font-size: 36px;
+    cursor: pointer;
+}
